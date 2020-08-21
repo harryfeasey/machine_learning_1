@@ -111,6 +111,7 @@ def cea_trace(domains, training_examples):
 
     return s_trace, g_trace
 
+
 def all_agree(S, G, x):
     return {matches(s, x) for s in S} == {matches(g, x) for g in G}
 
